@@ -1,0 +1,60 @@
+.header-parents::after {
+    background-image: url(./bg-vector.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    width: 600px;
+    height: 830px;
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.header-parents {
+    position: relative;
+    z-index: 1;
+    padding: 20px 0px;
+}
+
+.header-navigation>ul>li {
+    padding: 0px 20px;
+}
+
+.avail-icons {
+    width: 8px;
+    height: 8px;
+}
+
+.banner-bg-images {
+    position: relative;
+    z-index: 9;
+    top: -67px;
+}
+
+.banner-bg-images>img {
+    max-width: 100%;
+}
+
+/* skills */
+.professional>.container>h2 , .banner-text>h3>span , .Into-parent>h2{
+    background: -webkit-linear-gradient(70deg,#ffad49,#fe5d71 , #FC01CA);
+    -webkit-background-clip: text;
+    margin-right: 12px;
+    -webkit-text-fill-color: transparent;
+}
+.professional-skill-parent {
+    position: relative;
+    z-index: 9;
+    background-color:#fff;
+    box-shadow: -2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+
+.professional-skill>img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
