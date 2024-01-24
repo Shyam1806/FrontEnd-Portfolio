@@ -40,7 +40,7 @@ function Home() {
         <section className="Into-parent  pb-8">
           <h5 className="pt-2 text-[22px] text-slate-600">Introduction</h5>
           <h2 className="pt-1 font-bold text-[52px]">Over View</h2>
-          <p className="pt-1  text-[19px]">I began my journey as a web developer in 2021, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 2.5 years after starting my web development journey, I'm building cutting-edge web applications using modern technologies such as Next.js, Reactjs, Tailwindcss and much more.</p>
+          <p className="pt-1  text-[19px]">I began my journey as a web developer in 2021, and since then, I've continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way.I'm building cutting-edge web applications using modern technologies such as Next.js, Reactjs, Tailwindcss and much more.</p>
           <p className="pt-1  text-[19px]">One last thing, I'm available for freelance work, so feel free to reach out and say hello! I promise I don't bite 😉</p>
         </section>
         {/* <Projects/> */}
