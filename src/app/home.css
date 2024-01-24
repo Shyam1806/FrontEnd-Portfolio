@@ -29,17 +29,19 @@
 
 .banner-bg-images {
     position: relative;
-    z-index: 9;
+    z-index: 4;
     top: -67px;
 }
 
 .banner-bg-images>img {
     max-width: 100%;
+    animation: floatUpDown 3s infinite ease-in-out;
+;
 }
 
 /* skills */
-.professional>.container>h2 , .banner-text>h3>span , .Into-parent>h2{
-    background: -webkit-linear-gradient(70deg,#ffad49,#fe5d71 , #FC01CA);
+.professional>.container>h2 , .banner-text>h3>span , .Into-parent>h2 , .Projects-headline>h1 , .professional-title>h1{
+    background: -webkit-linear-gradient(80deg,#ffad49,#fe5d71 , #FC01CA);
     -webkit-background-clip: text;
     margin-right: 12px;
     -webkit-text-fill-color: transparent;
@@ -58,3 +60,42 @@
     height: 100px;
     object-fit: contain;
 }
+/* works */
+.projects-snap>img{
+    max-width:100%
+}
+.projects-link-parent{
+    position: relative;
+    z-index: 4;
+}
+.work-historyparent::before{
+    background-image: url(../../public//img/work-his.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: "";
+    width: 6px;
+    height: 300px;
+    display: inline-block;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.work-historyparent{
+    position: relative;
+}
+@keyframes floatUpDown {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .floating-particle-one {
+    animation: floatUpDown 3s infinite ease-in-out;
+  }
