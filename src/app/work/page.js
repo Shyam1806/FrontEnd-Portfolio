@@ -31,7 +31,7 @@ const work = () => {
               <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">portfolio App</div>
+                  <div class="font-bold text-xl mb-2">Portfolio App</div>
                   <p class="text-gray-700 text-base">
                     Web developer portfolio is a website that showcases a developer's past projects.A list or description of skills and services offered.
                   </p>
