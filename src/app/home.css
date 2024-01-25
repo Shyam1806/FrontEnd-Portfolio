@@ -66,7 +66,7 @@
 .projects-snap>img{
     max-width:100%
 }
-.projects-link-parent{
+.projects-link-parent , .contactus-wrapper{
     position: relative;
     z-index: 4;
 }
@@ -132,4 +132,13 @@
   }
   .work-history>ul>li>span , .work-history-1>ul>li>span{
     font-weight: 600;
+  }
+  /*contactus  */
+  .form-submit{
+    background: -webkit-linear-gradient(80deg,#ffad49,#fe5d71 , #FC01CA);
+  }
+  .contactus-img >img{
+    width:400px;
+    height:400px;
+    object-fit: cover;
   }
