@@ -28,7 +28,7 @@ const contact = () => {
                                 <input type="submit" className="mt-4 font-bold border-rounded form-submit text-white  p-2 hover:cursor-pointer pl-4 pr-4 rounded" />
                             </form>
                         </div>
-                        <div className="contactus-img shadow">
+                        <div className="contactus-img shadow lg:block md:hidden sm:hidden">
                             <img src="./img/contact.png" alt="contact-snap" />
                         </div>
                     </div>
