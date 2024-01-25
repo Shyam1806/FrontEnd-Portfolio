@@ -85,7 +85,7 @@ function skills() {
             <div className="professional-skill">
               <img src="./img/vs-code.png" alt="vs-code-logo" />
             </div>
-            <div className="professional-skill">
+            <div className="professional-skill postman">
               <img src="./img/postman.png" alt="postman-api-logo" />
             </div>
             <div className="professional-skill">
