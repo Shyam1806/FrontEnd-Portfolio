@@ -31,6 +31,23 @@ const work = () => {
               <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">portfolio App</div>
+                  <p class="text-gray-700 text-base">
+                    Web developer portfolio is a website that showcases a developer's past projects.A list or description of skills and services offered.
+                  </p>
+                  <a href="https://shyam-frontend-portfolio.vercel.app/" target='blank'>Visit Here</a>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Nextjs</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Tailwind css</span>
+
+                </div>
+              </div>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
+                <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Covid 19 App</div>
                   <p class="text-gray-700 text-base">
                     Covid 19 App is a the process of identifying persons ("contacts") who may have been in contact with an infected individual.
