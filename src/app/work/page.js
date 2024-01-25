@@ -1,32 +1,138 @@
 import React from 'react'
-
+import Header from '../components/header'
+import Footer from '../components/footer'
 const work = () => {
   return (
     <>
-      {/* <section className="projects">
-    <div className="container">
-      <div className="">
-        <h2>PROJECTS</h2>
-        <h1>My Projects</h1>
-        <p>Some things I've built with love, expertise and a pinch of magical ingredients. </p>
-      </div>
-    </div>
-   </section>
-   <section className="Professional-works">
-   <div className="container">
-      <div className="">
-      <h2>WORK</h2>
-        <h1>My Experience</h1>
-        <p>A Quick Recap of where I've Worked </p>
-        </div>
-        </div>
-   </section> */}
+      <Header />
+      <section className="projects">
+        <div className="container">
+          <div className="Projects-headline">
+            <h2 className="pt-2 text-[22px] text-slate-600">PROJECTS</h2>
+            <h1 className="pt-1 font-bold text-[52px]">My Projects</h1>
+            <p className="pt-1  text-[19px]">Some things I've built with love, expertise and a pinch of <br /> magical ingredients. </p>
+            <div className="projects-link-parent flex justify-between mt-8 flex-wrap">
+              {/*  */}
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">To Do App</div>
+                  <p class="text-gray-700 text-base">
+                    To Do is a task management app to help you stay organized and manage your day-to-day.
+                  </p>
+                  <a href="https://to-do-list-app-lyart.vercel.app/" target='blank'>Visit Here</a>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Javascript</span>
+                </div>
+              </div>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Covid 19 App</div>
+                  <p class="text-gray-700 text-base">
+                    Covid 19 App is a the process of identifying persons ("contacts") who may have been in contact with an infected individual.
+                  </p>
+                  <a href="https://covid-19-tracker-app-js.netlify.app" target='blank'>Visit Here</a>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Javascript</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">API Integration</span>
 
+                </div>
+              </div>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Dashboard App</div>
+                  <p class="text-gray-700 text-base">
+                   Dashboard App is Dashboard is a view that gives you an overview of all the activity related your app in terms of data collection and surveying activity.
+                  </p>
+                  <a href="https://dashboard-minimal-version.netlify.app/" target='blank'>Visit Here</a>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Javascript</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Bootstrap4</span>
 
-<div className="text-center mt-12 mb-12">
-                <p>The Website is Under Construction.Thank you for Visting.</p>
+                </div>
+              </div>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Weather App</div>
+                  <p class="text-gray-700 text-base">
+                   Weather App is a will provide users with real-time weather information, forecasts, and other weather-related data.
+                  </p>
+                  <a href="https://weather-report-app.netlify.app/" target='blank'>Visit Here</a>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Javascript</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">API Integration</span>
+
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="Professional-works mt-8">
+        <div className="container">
+          <div className="professional-title">
+            <h2 className="pt-2 text-[22px] text-slate-600">WORK</h2>
+            <h1 className="pt-1 font-bold text-[52px]">My Experience</h1>
+            <p className="pt-1  text-[19px]">A Quick Recap of where I've Worked </p>
+            <div className="work-historyparent">
 
+              <div className="work-history mt-8 ml-8 p-6 bg-orange-50	">
+                <h3 className="font-bold text-[19px]">Front End Developer May2021- Sep 2023 </h3>
+                <h4>Thilash Services Private Limited</h4>
+                <ul>
+                  <li>
+                    Created different components using <span>React</span> to render an element.
+                  </li>
+                  <li>
+                    Responsible for <span>Third party API integration</span> like (ProveSource , Stripe
+                    payment integration).
+                  </li>
+                  <li>
+                    Worked on <span>Keycloak Authentication.</span>
+                  </li>
+                  <li>
+                    Worked on converting the code from class based into function based.
+                  </li>
+                </ul>
+              </div>
+              <div className="work-history-1 mt-8 ml-8 p-6  bg-orange-50 mb-8">
+                <h3 className="font-bold text-[19px]">Web Developer Intern Feb2021- May 2021 </h3>
+                <h4>Thilash Services Private Limited</h4>
+                <ul>
+                  <li>
+                    Worked on building a new <span>ECommerce website</span> from scratch using <span>Next.js.</span>
+                  </li>
+                  <li>
+                    Worked on <span> Responsive</span> Website and <span>Wordpress</span> website.
+                  </li>
+                  <li>
+                    More than 40+ websites have been created.
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <Footer />
 
     </>
   )

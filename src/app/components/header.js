@@ -10,7 +10,7 @@ const Header = () => {
             <div className="header-logo">
               <ul>
                 <li>
-                  <Link href="/">
+                  <Link href="/" target='blank'>
                     Shyam
                   </Link>
                 </li>
