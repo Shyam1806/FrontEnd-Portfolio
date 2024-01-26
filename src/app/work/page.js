@@ -1,6 +1,7 @@
-import React from 'react'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import React from 'react';
+import Header from '../components/header';
+import Footer from '../components/footer';
+import Link from 'next/link';
 const work = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const work = () => {
                   <p class="text-gray-700 text-base">
                     To Do is a task management app to help you stay organized and manage your day-to-day.
                   </p>
-                  <a href="https://to-do-list-app-lyart.vercel.app/" target='blank'>Visit Here</a>
+                  <Link href="https://to-do-list-app-lyart.vercel.app/" target='blank'>Visit Here</Link>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
@@ -35,7 +36,7 @@ const work = () => {
                   <p class="text-gray-700 text-base">
                     Web developer portfolio is a website that showcases a developer's past projects.A list or description of skills and services offered.
                   </p>
-                  <a href="https://shyam-frontend-portfolio.vercel.app/" target='blank'>Visit Here</a>
+                  <Link href="https://shyam-frontend-portfolio.vercel.app/" target='blank'>Visit Here</Link>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
@@ -52,7 +53,7 @@ const work = () => {
                   <p class="text-gray-700 text-base">
                     Covid 19 App is a the process of identifying persons ("contacts") who may have been in contact with an infected individual.
                   </p>
-                  <a href="https://covid-19-tracker-app-js.netlify.app" target='blank'>Visit Here</a>
+                  <Link href="https://covid-19-tracker-app-js.netlify.app" target='blank'>Visit Here</Link>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
@@ -69,7 +70,7 @@ const work = () => {
                   <p class="text-gray-700 text-base">
                    Dashboard App is Dashboard is a view that gives you an overview of all the activity related your app in terms of data collection and surveying activity.
                   </p>
-                  <a href="https://dashboard-minimal-version.netlify.app/" target='blank'>Visit Here</a>
+                  <Link href="https://dashboard-minimal-version.netlify.app/" target='blank'>Visit Here</Link>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
@@ -86,7 +87,7 @@ const work = () => {
                   <p class="text-gray-700 text-base">
                    Weather App is a will provide users with real-time weather information, forecasts, and other weather-related data.
                   </p>
-                  <a href="https://weather-report-app.netlify.app/" target='blank'>Visit Here</a>
+                  <Link href="https://weather-report-app.netlify.app/" target='blank'>Visit Here</Link>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
