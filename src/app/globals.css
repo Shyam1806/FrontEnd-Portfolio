@@ -48,3 +48,8 @@ a{
   position: relative;
     z-index: 99;
 } */
+@media screen and (max-width:767px) and (min-width:320px) {
+  .container{
+    max-width: inherit !important;
+  }
+}
