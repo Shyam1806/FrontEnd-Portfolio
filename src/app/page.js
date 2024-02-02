@@ -1,6 +1,7 @@
-
+'use client';
 import Image from 'next/image';
 import Head from 'next/head';
+import { TypeAnimation } from 'react-type-animation';
 import Header from "./components/header";
 import Footer from "./components/footer";
 function Home() {
@@ -8,7 +9,7 @@ function Home() {
     <>
       <Head>
         <title>Shyam - FrontEnd Portfolio</title>
-        
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="" />
         <meta name="keywords" content="" />
@@ -22,7 +23,24 @@ function Home() {
             <h3 className="pt-2 font-bold text-[52px]">
               Hi,I'M <span>Shyam</span>
             </h3>
-            <h5 className="pt-2 text-[19px]">Front End Developer / Web Developer</h5>
+            {/* <h5 className="pt-2 text-[19px]">Front End Developer / Web Developer</h5> */}
+            <TypeAnimation
+              preRenderFirstString={true}
+              sequence={[
+                500,
+                'Front End Developer', 
+                1000,
+                'Web Developer',
+                1000,
+                'UI Developer',
+                1000,
+                'React Developer',
+                500,
+              ]}
+              speed={150}
+              style={{ fontSize: '22px' }}
+              repeat={Infinity}
+            />
             <p className="pt-2 text-[17px]">I'm a frontend developer with 2.5 years of experience in designing, developing, and maintaining user interfaces for web applications. Proven ability to collaborate effectively with cross-functional teams to deliver high-quality, user-centric solutions. Expertise in HTML, CSS, JavaScript, and modern frontend frameworks.</p>
             <p className="pt-2 pb-2 text-[16px] available-cnt flex flex-wrap items-center"><img className="avail-icons mr-2" src='../img/Avaliable-icons.png' />Available For New Projects</p>
             <div class="professional-networkicons flex mt-4 mb-4">
