@@ -14,7 +14,7 @@ const work = () => {
             <p className="pt-1  text-[19px]">Some things I've built with love, expertise and a pinch of <br /> magical ingredients. </p>
             <div className="projects-link-parent flex justify-between mt-8 flex-wrap">
               {/*  */}
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">To Do App</div>
@@ -29,7 +29,7 @@ const work = () => {
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Javascript</span>
                 </div>
               </div>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Portfolio App</div>
@@ -46,7 +46,7 @@ const work = () => {
 
                 </div>
               </div>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Covid 19 App</div>
@@ -63,12 +63,12 @@ const work = () => {
 
                 </div>
               </div>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Dashboard App</div>
                   <p class="text-gray-700 text-base">
-                   Dashboard App is Dashboard is a view that gives you an overview of all the activity related your app in terms of data collection and surveying activity.
+                    Dashboard App is Dashboard is a view that gives you an overview of all the activity related your app in terms of data collection and surveying activity.
                   </p>
                   <Link href="https://dashboard-minimal-version.netlify.app/" target='blank'>Visit Here</Link>
                 </div>
@@ -80,12 +80,12 @@ const work = () => {
 
                 </div>
               </div>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8">
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">Weather App</div>
                   <p class="text-gray-700 text-base">
-                   Weather App is a will provide users with real-time weather information, forecasts, and other weather-related data.
+                    Weather App is a will provide users with real-time weather information, forecasts, and other weather-related data.
                   </p>
                   <Link href="https://weather-report-app.netlify.app/" target='blank'>Visit Here</Link>
                 </div>

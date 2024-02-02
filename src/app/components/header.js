@@ -1,7 +1,10 @@
+'use client';
 import React from 'react'
 import Link from "next/link";
+import { stack as Menu } from 'react-burger-menu'
 
 const Header = () => {
+ 
   return (
     <>
       <div className="header-parents  ">
@@ -16,7 +19,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-            <div className="header-navigation">
+            <div className="header-navigation lg:block md:block sm:hidden">
               <ul className="flex flex-wrap justify-between">
                 <li>
                   <Link href="/skills">
@@ -38,9 +41,23 @@ const Header = () => {
                     Contact
                   </Link>
                 </li>
-                {/* <link href="/">About</link>
-                        <link href="/"></link> */}
               </ul>
+            </div>
+            <div className="burgermenus lg:hidden sm:block md:hidden">
+              <Menu right>
+                <a href="/skills">
+                  Skills
+                </a>
+                <Link href="/work">
+                    Work
+                  </Link>
+                  <Link href="/blogs">
+                    Blogs
+                  </Link>
+                  <Link href="/contact">
+                    Contact
+                  </Link>
+              </Menu>
             </div>
           </div>
         </div>

@@ -1,3 +1,6 @@
+.burgermenu{
+  display: none;
+}
 .header-parents::after {
     background-image: url(./bg-vector.png);
     background-size: cover;
