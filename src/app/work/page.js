@@ -17,6 +17,23 @@ const work = () => {
               <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
                 <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
                 <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Weather App</div>
+                  <p class="text-gray-700 text-base">
+                    Weather App is a will provide users with real-time weather information, forecasts, and other weather-related data.
+                  </p>
+                  <Link href="https://weather-client-lime.vercel.app/" target='blank'>Visit Here</Link>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Reactjs</span>
+                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">API Integration</span>
+
+                </div>
+              </div>
+              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
+                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
+                <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">To Do App</div>
                   <p class="text-gray-700 text-base">
                     To Do is a task management app to help you stay organized and manage your day-to-day.
@@ -80,23 +97,7 @@ const work = () => {
 
                 </div>
               </div>
-              <div class="max-w-sm rounded overflow-hidden shadow-lg mt-8 ">
-                <img class="w-full" src="/img/Project-common.png" alt="Project-snap" />
-                <div class="px-6 py-4">
-                  <div class="font-bold text-xl mb-2">Weather App</div>
-                  <p class="text-gray-700 text-base">
-                    Weather App is a will provide users with real-time weather information, forecasts, and other weather-related data.
-                  </p>
-                  <Link href="https://weather-report-app.netlify.app/" target='blank'>Visit Here</Link>
-                </div>
-                <div class="px-6 pt-4 pb-2">
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Css</span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Javascript</span>
-                  <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">API Integration</span>
-
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
