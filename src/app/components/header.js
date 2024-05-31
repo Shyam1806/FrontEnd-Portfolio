@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import Link from "next/link";
-import { stack as Menu } from 'react-burger-menu'
+import { stack as Menu } from 'react-burger-menu';
 
 const Header = () => {
  
