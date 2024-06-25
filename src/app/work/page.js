@@ -87,7 +87,7 @@ const work = () => {
                   <p class="text-gray-700 text-base">
                   Expense Tracker App  that helps to keep an accurate record of your money inflow and outflow.
                   </p>
-                  <Link href="#Upcoming" target='blank'>Visit Here</Link>
+                  <Link href="#Upcoming" target='blank'>Upcoming</Link>
                 </div>
                 <div class="px-6 pt-4 pb-2">
                   <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Html</span>
