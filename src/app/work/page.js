@@ -131,7 +131,7 @@ const work = () => {
                 <h4>Freelancer</h4>
                 <ul>
                   <li>
-                    More than <span>4+ Websites </span> have been completed using Reactjs & Html.
+                    More than <span>4+ Websites </span> have been completed using <span>Reactjs & HTML</span>.
                   </li>
                   <li>
                     1 Admin Panel For Ecommerce Dashboard have been completed using <span>Reactjs</span>
